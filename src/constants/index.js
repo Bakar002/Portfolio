@@ -6,6 +6,8 @@ import {
     javascript,
     typescript,
     html,
+    landing,
+    todo,
     css,
     reactjs,
     redux,
@@ -185,30 +187,30 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Ecommerce Store",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Experience a seamless online shopping journey with our meticulously crafted e-commerce store. Built using HTML, CSS, and JavaScript, our platform offers a stunning user interface and captivating signin and login pages. Enjoy hassle-free navigation as you explore our extensive product range. Our advanced features include a dynamic shopping cart for easy upgrades, and smooth pagination for effortless browsing. Elevate your online shopping experience with us.",
       tags: [
         {
-          name: "react",
+          name: "html",
+          color: "red-text-gradient",
+        },
+        {
+          name: "css",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          name: "javascript",
+          color: "yellow-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://delicate-bavarois-e4c658.netlify.app/",
     },
     {
-      name: "Job IT",
+      name: "Movie App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Experience seamless movie browsing with our app, combining the power of Axios for efficient API interactions and the dynamic user interface of ReactJS. Discover, explore, and stay updated on your favorite movies effortlessly.",
       tags: [
         {
           name: "react",
@@ -224,28 +226,70 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://movie-app-gamma-swart.vercel.app/",
     },
     {
-      name: "Trip Guide",
+      name: "Wedding Dashboard",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The Wedding Dashboard is a feature-rich application built using Next.js and powered by Firebase. It offers comprehensive wedding management with full authentication capabilities. The frontend boasts an array of visually stunning pages, each designed to enhance the user experience. From RSVP forms to seating arrangements, the dashboard seamlessly integrates form functionalities, providing an all-in-one solution for organizing and coordinating every aspect of a memorable wedding event.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "jquerey",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://wedding-app-dashboard.vercel.app/",
+    },
+    {
+      name: "To do List",
+      description:
+      "Crafted with Next.js, this dynamic to-do list seamlessly integrates Firebase for real-time data synchronization and storage. Harnessing the power of local storage, it ensures data persistence even offline. Experience a smooth, responsive, and collaborative task management solution.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: todo,
+      source_code_link: "https://github.com/Bakar002/todolist",
+    },
+    {
+      name: "Medical Landing page",
+      description:
+      "Explore our innovative medical landing page, seamlessly blending informative content with captivating animations. Experience dynamic visuals that simplify complex medical concepts. Our page offers a range of interactive features, from symptom checkers to virtual consultations, enhancing user engagement and providing personalized healthcare insights.",
+      tags: [
+        {
+          name: "React js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: landing,
+      source_code_link: "https://github.com/Bakar002/Project2",
     },
   ];
   
